@@ -55,96 +55,6 @@ proxy-groups:
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
       - 越南节点 🇻🇳 
-  - name: 官方优选 📶
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/10086.png'
-    include-all: true
-    filter: (?i)官方|防|电信|联通|移动|CT|CU|CM|CF|t.me|WARP|Warp|warp
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 世界节点 🌏
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
-    include-all: true
-    filter: (?s)AL|AU|BE|CA|CH|CZ|EE|ES|FR|GB|IL|IN|MD|MX|NL|PH|PL|PY|RO|RS|SE|UA|Other
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 美国节点 🇺🇲
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
-    include-all: true
-    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 150
-  - name: 香港节点 🇭🇰
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
-    include-all: true
-    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 狮城节点 🇸🇬
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
-    include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore|SIN
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 德国节点 🇩🇪
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png'
-    include-all: true
-    filter: (?i)德国|德|柏林|DE|Germany|BRD
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 台湾节点 🇨🇳
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/CN.png'
-    include-all: true
-    filter: (?i)台|新北|彰化|TW|Taiwan|TPE|KHH
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 日本节点 🇯🇵
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png'
-    include-all: true
-    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|[^-]日|JP|Japan|Tokyo|NRT|KIX
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 韩国节点 🇰🇷 
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png'
-    include-all: true
-    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 越南节点 🇻🇳 
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/VN.png'
-    include-all: true
-    filter: (?i)VN|Vietnam|VNM|Hanoi|越南|河内
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
   - name: 电报消息 📲
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
     type: select
@@ -427,6 +337,96 @@ proxy-groups:
       - 节点选择 🚀
       - 自动选择 ♻
       - 手动切换️ ☑
+  - name: 官方优选 📶
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/10086.png'
+    include-all: true
+    filter: (?i)官方|防|电信|联通|移动|CT|CU|CM|CF|t.me|WARP|Warp|warp
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 世界节点 🌏
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
+    include-all: true
+    filter: (?s)AL|AU|BE|CA|CH|CZ|EE|ES|FR|GB|IL|IN|MD|MX|NL|PH|PL|PY|RO|RS|SE|UA|Other
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 美国节点 🇺🇲
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+  - name: 香港节点 🇭🇰
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 狮城节点 🇸🇬
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore|SIN
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 德国节点 🇩🇪
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png'
+    include-all: true
+    filter: (?i)德国|德|柏林|DE|Germany|BRD
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 台湾节点 🇨🇳
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/CN.png'
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan|TPE|KHH
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 日本节点 🇯🇵
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/JP.png'
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 韩国节点 🇰🇷 
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/KR.png'
+    include-all: true
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 越南节点 🇻🇳 
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/VN.png'
+    include-all: true
+    filter: (?i)VN|Vietnam|VNM|Hanoi|越南|河内
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
 
 rule-providers:
   LocalAreaNetwork:
