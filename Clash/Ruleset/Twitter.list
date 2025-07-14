@@ -1,28 +1,28 @@
   # 内容：Twitter
   # 数量：26条
-  - DOMAIN-KEYWORD,twitter,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitter.jp,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitter4j.org,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twittercounter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitterfeed.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twittergadget.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitterkr.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twittermail.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitterrific.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twittertim.es,推特 | X 𝕏
-  - DOMAIN-SUFFIX,ads-twitter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,turbotwitter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,simbolostwitter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,financetwitter.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,berlintwitterwall.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,x.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,periscope.tv,推特 | X 𝕏
-  - DOMAIN-SUFFIX,pscp.tv,推特 | X 𝕏
-  - DOMAIN-SUFFIX,t.co,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twimg.co,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twimg.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twimg.org,推特 | X 𝕏
-  - DOMAIN-SUFFIX,twitpic.com,推特 | X 𝕏
-  - DOMAIN-SUFFIX,vine.co,推特 | X 𝕏
-  - DOMAIN-SUFFIX,x.com,推特 | X 𝕏
+  - DOMAIN-KEYWORD,twitter,推特 𝕏
+  - DOMAIN-SUFFIX,twitter.com,推特 𝕏
+  - DOMAIN-SUFFIX,twitter.jp,推特 𝕏
+  - DOMAIN-SUFFIX,twitter4j.org,推特 𝕏
+  - DOMAIN-SUFFIX,twittercounter.com,推特 𝕏
+  - DOMAIN-SUFFIX,twitterfeed.com,推特 𝕏
+  - DOMAIN-SUFFIX,twittergadget.com,推特 𝕏
+  - DOMAIN-SUFFIX,twitterkr.com,推特 𝕏
+  - DOMAIN-SUFFIX,twittermail.com,推特 𝕏
+  - DOMAIN-SUFFIX,twitterrific.com,推特 𝕏
+  - DOMAIN-SUFFIX,twittertim.es,推特 𝕏
+  - DOMAIN-SUFFIX,ads-twitter.com,推特 𝕏
+  - DOMAIN-SUFFIX,turbotwitter.com,推特 𝕏
+  - DOMAIN-SUFFIX,simbolostwitter.com,推特 𝕏
+  - DOMAIN-SUFFIX,financetwitter.com,推特 𝕏
+  - DOMAIN-SUFFIX,berlintwitterwall.com,推特 𝕏
+  - DOMAIN-SUFFIX,x.com,推特 𝕏
+  - DOMAIN-SUFFIX,periscope.tv,推特 𝕏
+  - DOMAIN-SUFFIX,pscp.tv,推特 𝕏
+  - DOMAIN-SUFFIX,t.co,推特 𝕏
+  - DOMAIN-SUFFIX,twimg.co,推特 𝕏
+  - DOMAIN-SUFFIX,twimg.com,推特 𝕏
+  - DOMAIN-SUFFIX,twimg.org,推特 𝕏
+  - DOMAIN-SUFFIX,twitpic.com,推特 𝕏
+  - DOMAIN-SUFFIX,vine.co,推特 𝕏
+  - DOMAIN-SUFFIX,x.com,推特 𝕏
