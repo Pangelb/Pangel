@@ -751,7 +751,7 @@ rules:
   - "RULE-SET,Bahamut,国外媒体 🌍"
   - "RULE-SET,Emby,国外媒体 🌍"
   - "RULE-SET,ProxyMedia,国外媒体 🌍"
-  - "RULE-SET,Twitter,国外媒体 🌍"
+  - "RULE-SET,Twitter,推特 𝕏"
   - "RULE-SET,ProxyGFWlist,节点选择 🚀"
   - "RULE-SET,proxy,节点选择 🚀"
   - "RULE-SET,CMBlog,节点选择 🚀"
