@@ -499,13 +499,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  SteamCN:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/SteamCN.list
-    path: ./ruleset/SteamCN.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   Bing:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
     path: ./ruleset/Bing.list
@@ -757,7 +750,6 @@ rules:
   - "RULE-SET,BanProgramAD,应用净化 🍃"
   - "RULE-SET,GoogleFCM,谷歌FCM 📢"
   - "RULE-SET,GoogleCN,GLOBAL"
-  - "RULE-SET,SteamCN,GLOBAL"
   - "RULE-SET,Bing,微软Bing Ⓜ️"
   - "RULE-SET,OneDrive,微软云盘 Ⓜ️"
   - "RULE-SET,Microsoft,微软服务 Ⓜ️"
@@ -774,6 +766,7 @@ rules:
   - "RULE-SET,Sony,游戏平台 🎮"
   - "RULE-SET,Nintendo,游戏平台 🎮"
   - "RULE-SET,Steam,Steam 🎮"
+  - "RULE-SET,SteamCN,GLOBAL"
   - "RULE-SET,Xbox,Xbox 🎲"
   - "RULE-SET,YouTube,油管视频 📹"
   - "RULE-SET,Netflix,奈飞视频 🎥"
