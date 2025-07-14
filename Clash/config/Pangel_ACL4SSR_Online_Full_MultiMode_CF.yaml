@@ -611,6 +611,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  SteamCN:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   Nintendo:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
     path: ./ruleset/Nintendo.list
