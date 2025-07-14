@@ -1,6 +1,5 @@
-payload:
   # 内容：Twitter
-  # 数量：17条
+  # 数量：26条
   - DOMAIN-KEYWORD,twitter,推特 | X 𝕏
   - DOMAIN-SUFFIX,twitter.com,推特 | X 𝕏
   - DOMAIN-SUFFIX,twitter.jp,推特 | X 𝕏
