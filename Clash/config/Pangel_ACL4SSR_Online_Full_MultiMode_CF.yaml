@@ -13,6 +13,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -49,6 +50,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -65,7 +67,7 @@ proxy-groups:
   - name: 世界节点 🌏
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
     include-all: true
-    filter: (?s)AL|AU|BE|CA|CH|CZ|DE|EE|ES|FR|GB|IL|IN|MD|MX|NL|PH|PL|PY|RO|RS|SE|UA|Other
+    filter: (?s)AL|AU|BE|CA|CH|CZ|EE|ES|FR|GB|IL|IN|MD|MX|NL|PH|PL|PY|RO|RS|SE|UA|Other
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
@@ -93,6 +95,15 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore|SIN
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 德国节点 🇩🇪
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png'
+    include-all: true
+    filter: (?i)德国|德|柏林|DE|Germany|BRD
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
@@ -148,6 +159,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷
@@ -166,6 +178,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: Ai 🤖
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
     type: select
@@ -180,6 +193,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -197,6 +211,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -214,6 +229,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -240,6 +256,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
       - 台湾节点 🇨🇳
       - 日本节点 🇯🇵
       - 韩国节点 🇰🇷 
@@ -268,6 +285,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 微软Bing Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Bing.png'
     type: select
@@ -281,6 +299,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 微软云盘 Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -294,6 +313,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 微软服务 Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -307,6 +327,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 苹果服务 🍎
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png'
     type: select
@@ -320,6 +341,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 游戏平台 🎮
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png'
     type: select
@@ -333,6 +355,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: Steam 🎮
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Steam.png'
     type: select
@@ -346,6 +369,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: Xbox 🎲
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -359,6 +383,7 @@ proxy-groups:
       - 美国节点 🇺🇲
       - 香港节点 🇭🇰
       - 狮城节点 🇸🇬
+      - 德国节点 🇩🇪 
   - name: 网易音乐 🎶
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Netease.png'
     type: select
