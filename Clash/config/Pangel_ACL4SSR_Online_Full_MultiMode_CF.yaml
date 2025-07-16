@@ -60,7 +60,6 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
     type: select
     proxies:
-      - DIRECT
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
@@ -70,7 +69,6 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Twitter.png'
     type: select
     proxies:
-      - DIRECT
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
@@ -80,7 +78,6 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
     type: select
     proxies:
-      - DIRECT
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
@@ -119,7 +116,6 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png'
     type: select
     proxies:
-      - DIRECT
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
