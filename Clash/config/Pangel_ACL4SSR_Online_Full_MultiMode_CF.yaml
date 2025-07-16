@@ -111,7 +111,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - GLOBAL
       - 负载均衡 ⌛ 香港节点 🇭🇰
       - 自动测速 🛣️ 香港节点 🇭🇰
       - 负载均衡 ⌛ 台湾节点 🇨🇳
@@ -267,7 +266,7 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Piao.png'
     type: select
     proxies:
-      - GLOBAL
+      - DIRECT
       - 节点选择 🚀
       - 手动切换️ ☑
       - 自动测速 | 节点 🛣️
