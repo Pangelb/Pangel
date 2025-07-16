@@ -378,7 +378,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: 自动测速 🛣️ 德国节点 🇩🇪
+  - name: 德国节点T 🇩🇪
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png'
     include-all: true
     filter: (?i)德国|德|柏林|DE|Germany|BRD
