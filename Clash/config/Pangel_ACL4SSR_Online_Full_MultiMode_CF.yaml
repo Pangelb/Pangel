@@ -7,7 +7,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 手动切换️ ☑
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Personal.png'
     include-all: true
@@ -33,7 +34,7 @@ proxy-groups:
       - 日本节点T 🇯🇵
       - 韩国节点T 🇰🇷 
       - 越南节点T 🇻🇳 
-  - name: 负载均衡 ⌛
+  - name: 节点均衡 ⌛
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Available.png'
     include-all: true
     type: load-balance
@@ -41,6 +42,20 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
+  - name: 地区均衡 ⌛
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    type: select
+    proxies:
+      - 官方优选L 📶
+      - 世界节点L 🌏
+      - 美国节点L 🇺🇲
+      - 香港节点L 🇭🇰
+      - 狮城节点L 🇸🇬
+      - 德国节点L 🇩🇪 
+      - 台湾节点L 🇨🇳
+      - 日本节点L 🇯🇵
+      - 韩国节点L 🇰🇷 
+      - 越南节点L 🇻🇳 
   - name: 电报消息 📲
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
     type: select
@@ -49,7 +64,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 推特 𝕏
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Twitter.png'
     type: select
@@ -58,7 +74,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: Ai 🤖
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
     type: select
@@ -67,7 +84,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
       - 德国节点L 🇩🇪 
       - 德国节点T 🇩🇪 
   - name: 油管视频 📹
@@ -77,7 +95,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 奈飞视频 🎥
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Netflix.png'
     type: select
@@ -85,7 +104,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 哔哩哔哩 📺
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/bilibili.png'
     type: select
@@ -103,7 +123,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 国内媒体 🌏
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png'
     type: select
@@ -129,7 +150,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 微软Bing Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Bing.png'
     type: select
@@ -139,7 +161,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 微软云盘 Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -149,7 +172,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 微软服务 Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -159,7 +183,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 苹果服务 🍎
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png'
     type: select
@@ -169,7 +194,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 游戏平台 🎮
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png'
     type: select
@@ -179,7 +205,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: Steam 🎮
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Steam.png'
     type: select
@@ -189,7 +216,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: Xbox 🎲
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -199,7 +227,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 网易音乐 🎶
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Netease.png'
     type: select
@@ -208,7 +237,8 @@ proxy-groups:
       - 节点选择 🚀
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 广告拦截 🛑
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Adblock.png'
     type: select
@@ -230,7 +260,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: CloudFlareCDN ☁️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Piao.png'
     type: select
@@ -240,7 +271,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: GLOBAL
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
     type: select
@@ -250,7 +282,8 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 负载均衡 ⌛
+      - 节点均衡 ⌛
+      - 地区均衡 ⌛
   - name: 官方优选L 📶
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/10086.png'
     include-all: true
