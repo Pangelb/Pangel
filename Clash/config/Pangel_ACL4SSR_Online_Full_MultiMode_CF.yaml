@@ -799,6 +799,6 @@ rules:
   - "RULE-SET,CMBlog,节点选择 🚀"
   - "GEOIP,cloudflare,CloudFlareCDN ☁️"
   - "RULE-SET,Download,GLOBAL"
-  - "DOMAIN,hidoha.net"
+  - "DOMAIN,hidoha.net,GLOBAL"
   - "GEOIP,CN,GLOBAL"
   - "MATCH,漏网之鱼 🐟"
