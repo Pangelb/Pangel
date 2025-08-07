@@ -53,7 +53,6 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
-      - 德国节点L 🇩🇪 
       - 德国节点T 🇩🇪 
   - name: 油管视频 📹
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/YouTube.png'
@@ -74,9 +73,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 香港节点L 🇭🇰
       - 香港节点T 🇭🇰
-      - 台湾节点L 🇨🇳
       - 台湾节点T 🇨🇳
   - name: 国外媒体 🌍
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png'
@@ -91,15 +88,10 @@ proxy-groups:
     proxies:
       - DIRECT
       - 手动切换️ ☑
-      - 香港节点L 🇭🇰
       - 香港节点T 🇭🇰
-      - 狮城节点L 🇸🇬
       - 狮城节点T 🇸🇬
-      - 台湾节点L 🇨🇳
       - 台湾节点T 🇨🇳
-      - 日本节点L 🇯🇵
       - 日本节点T 🇯🇵
-      - 越南节点L 🇻🇳 
       - 越南节点T 🇻🇳 
   - name: 谷歌FCM 📢
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
