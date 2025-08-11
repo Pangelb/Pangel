@@ -220,7 +220,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 亚太节点T 🌏
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SN.png'
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
     include-all: true
     filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU
     type: url-test
