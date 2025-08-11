@@ -80,7 +80,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 国内媒体 🌏
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Aiqiyi.png
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Aiqiyi.png'
     type: select
     proxies:
       - DIRECT
