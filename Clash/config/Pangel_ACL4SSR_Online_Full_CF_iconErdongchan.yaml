@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 节点选择 🚀
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Proxy.png'
     type: select
     proxies:
       - DIRECT
@@ -8,18 +8,18 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 手动切换️ ☑
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Personal.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/？.png'
     include-all: true
     type: select
   - name: 节点测速 🛣️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Auto.png'
     type: url-test
     url: http://www.gstatic.com/generate_204
     include-all: true
     interval: 300
     tolerance: 50
   - name: 地区测速 🛣️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/TestFlight.png'
     type: select
     proxies:
       - 官方优选T 📶
@@ -29,21 +29,21 @@ proxy-groups:
       - 香港节点T 🇭🇰
       - 德国节点T 🇩🇪 
   - name: 电报消息 📲
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 推特 𝕏
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Twitter.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Twitter.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: Ai 🤖
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/？'
     type: select
     proxies:
       - 手动切换️ ☑
@@ -52,35 +52,35 @@ proxy-groups:
       - 德国节点T 🇩🇪
       - 荷兰节点T 🇳🇱
   - name: 油管视频 📹
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/YouTube.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/YouTube.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 奈飞视频 🎥
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Netflix.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Metflix.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 哔哩哔哩 📺
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/bilibili.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/bilibili.png'
     type: select
     proxies:
       - DIRECT
       - 亚太节点T 🌏
       - 香港节点T 🇭🇰
   - name: 国外媒体 🌍
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Instadgram.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 国内媒体 🌏
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/StreamingCN.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Aiqiyi.png
     type: select
     proxies:
       - DIRECT
@@ -88,7 +88,7 @@ proxy-groups:
       - 亚太节点T 🌏
       - 香港节点T 🇭🇰
   - name: 谷歌FCM 📢
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Google.png'
     type: select
     proxies:
       - DIRECT
@@ -97,7 +97,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 微软Bing Ⓜ️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Bing.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Microsoft.png'
     type: select
     proxies:
       - DIRECT
@@ -106,7 +106,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 微软云盘 Ⓜ️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Microsoft.png'
     type: select
     proxies:
       - DIRECT
@@ -115,7 +115,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 微软服务 Ⓜ️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Microsoft.png'
     type: select
     proxies:
       - DIRECT
@@ -124,7 +124,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 苹果服务 🍎
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Apple.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Apple.png'
     type: select
     proxies:
       - DIRECT
@@ -133,7 +133,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 游戏平台 🎮
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/GAME.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Game.png'
     type: select
     proxies:
       - DIRECT
@@ -160,7 +160,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 网易音乐 🎶
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Netease.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netease.png'
     type: select
     proxies:
       - DIRECT
@@ -168,19 +168,19 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 广告拦截 🛑
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Adblock.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/ADBlock.png'
     type: select
     proxies:
       - REJECT
       - DIRECT
   - name: 应用净化 🍃
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Final.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Reject.png'
     type: select
     proxies:
       - REJECT
       - DIRECT
   - name: 漏网之鱼 🐟
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Socloud.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final01.png'
     type: select
     proxies:
       - DIRECT
@@ -188,7 +188,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: CloudFlareCDN ☁️
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Piao.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final.png'
     type: select
     proxies:
       - DIRECT
@@ -196,7 +196,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: GLOBAL
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Direct.png'
     type: select
     proxies:
       - DIRECT
@@ -220,7 +220,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 亚太节点T 🌏
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/SG.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
     include-all: true
     filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU
     type: url-test
@@ -228,7 +228,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 美国节点T 🇺🇲
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/US.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/US.png'
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
     type: url-test
@@ -236,7 +236,7 @@ proxy-groups:
     interval: 300
     tolerance: 150
   - name: 香港节点T 🇭🇰
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    icon: 'ttps://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/HG.png'
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
     type: url-test
@@ -244,7 +244,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 德国节点T 🇩🇪
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/DE.png'
+    icon: 'ttps://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
     include-all: true
     filter: (?i)德国|德|柏林|DE|Germany|BRD
     type: url-test
