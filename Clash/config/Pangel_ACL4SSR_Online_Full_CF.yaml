@@ -24,13 +24,10 @@ proxy-groups:
     proxies:
       - 官方优选T 📶
       - 世界节点T 🌏
+      - 亚洲节点T 🇸🇬
       - 美国节点T 🇺🇲
       - 香港节点T 🇭🇰
-      - 狮城节点T 🇸🇬
       - 德国节点T 🇩🇪 
-      - 台湾节点T 🇨🇳
-      - 日本节点T 🇯🇵
-      - 韩国节点T 🇰🇷 
   - name: 电报消息 📲
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png'
     type: select
@@ -72,8 +69,8 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 亚洲节点T 🇨🇳
       - 香港节点T 🇭🇰
-      - 台湾节点T 🇨🇳
   - name: 国外媒体 🌍
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Streaming.png'
     type: select
@@ -87,10 +84,8 @@ proxy-groups:
     proxies:
       - DIRECT
       - 手动切换️ ☑
+      - 亚洲节点T 🇨🇳
       - 香港节点T 🇭🇰
-      - 狮城节点T 🇸🇬
-      - 台湾节点T 🇨🇳
-      - 日本节点T 🇯🇵
   - name: 谷歌FCM 📢
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
     type: select
