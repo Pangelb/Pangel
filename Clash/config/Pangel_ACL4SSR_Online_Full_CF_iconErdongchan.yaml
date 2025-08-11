@@ -52,28 +52,28 @@ proxy-groups:
       - 德国节点T 🇩🇪
       - 荷兰节点T 🇳🇱
   - name: 油管视频 📹
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/YouTube.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Youtube.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 奈飞视频 🎥
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Metflix.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netflix.png'
     type: select
     proxies:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 哔哩哔哩 📺
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/bilibili.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Bilibili.png'
     type: select
     proxies:
       - DIRECT
       - 亚太节点T 🌏
       - 香港节点T 🇭🇰
   - name: 国外媒体 🌍
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Instadgram.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Instagram.png'
     type: select
     proxies:
       - 手动切换️ ☑
@@ -168,7 +168,7 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
   - name: 广告拦截 🛑
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/ADBlock.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/AdBlock.png'
     type: select
     proxies:
       - REJECT
@@ -236,7 +236,7 @@ proxy-groups:
     interval: 300
     tolerance: 150
   - name: 香港节点T 🇭🇰
-    icon: 'ttps://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/HG.png'
+    icon: 'ttps://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/HG02.png'
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
     type: url-test
@@ -244,7 +244,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 德国节点T 🇩🇪
-    icon: 'ttps://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
     include-all: true
     filter: (?i)德国|德|柏林|DE|Germany|BRD
     type: url-test
