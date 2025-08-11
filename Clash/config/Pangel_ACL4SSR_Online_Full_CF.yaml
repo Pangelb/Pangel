@@ -85,7 +85,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 手动切换️ ☑
-      - 亚洲节点T 🇨🇳
+      - 亚洲节点T 🌏
       - 香港节点T 🇭🇰
   - name: 谷歌FCM 📢
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png'
