@@ -1,4 +1,12 @@
 proxy-groups:
+  - name: GLOBAL
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
   - name: 节点选择 🚀
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Static.png'
     type: select
@@ -189,14 +197,6 @@ proxy-groups:
       - 地区测速 🛣️
   - name: CloudFlareCDN ☁️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Piao.png'
-    type: select
-    proxies:
-      - DIRECT
-      - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
-  - name: GLOBAL
-    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png'
     type: select
     proxies:
       - DIRECT
