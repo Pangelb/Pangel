@@ -1,4 +1,12 @@
 proxy-groups:
+  - name: GLOBAL
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Direct.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
   - name: 节点选择 🚀
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Proxy.png'
     type: select
@@ -189,14 +197,6 @@ proxy-groups:
       - 地区测速 🛣️
   - name: CloudFlareCDN ☁️
     icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
-    type: select
-    proxies:
-      - DIRECT
-      - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
-  - name: GLOBAL
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Direct.png'
     type: select
     proxies:
       - DIRECT
