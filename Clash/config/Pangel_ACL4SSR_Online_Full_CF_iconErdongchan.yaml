@@ -34,8 +34,8 @@ proxy-groups:
       - 世界节点T 🇺🇳
       - 亚太节点T 🌏
       - 美国节点T 🇺🇲
-      - 香港节点T 🇭🇰
       - 德国节点T 🇩🇪 
+      - 越南节点T 🇻🇳
   - name: 电报消息 📲
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
@@ -58,7 +58,6 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
       - 德国节点T 🇩🇪
-      - 荷兰节点T 🇳🇱
   - name: 油管视频 📹
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Youtube.png'
     type: select
@@ -222,7 +221,7 @@ proxy-groups:
   - name: 亚太节点T 🌏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
     include-all: true
-    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -235,14 +234,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
-  - name: 香港节点T 🇭🇰
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/HK02.png'
-    include-all: true
-    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
   - name: 德国节点T 🇩🇪
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
     include-all: true
@@ -251,10 +242,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: 荷兰节点T 🇳🇱 
-    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Netherlands.png'
+  - name: 越南节点T 🇻🇳 
+    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
     include-all: true
-    filter: (?i)NL|荷兰
+    filter: (?i)越南|VN
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
