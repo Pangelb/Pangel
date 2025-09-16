@@ -78,7 +78,6 @@ proxy-groups:
     proxies:
       - DIRECT
       - 亚太节点T 🌏
-      - 香港节点T 🇭🇰
   - name: 国外媒体 🌍
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Instagram.png'
     type: select
@@ -93,7 +92,6 @@ proxy-groups:
       - DIRECT
       - 手动切换️ ☑
       - 亚太节点T 🌏
-      - 香港节点T 🇭🇰
   - name: 谷歌FCM 📢
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Google.png'
     type: select
