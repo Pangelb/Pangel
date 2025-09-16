@@ -1,0 +1,671 @@
+proxy-groups:
+  - name: GLOBAL
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Direct.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 节点选择 🚀
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Proxy.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 手动切换️ ☑
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Outside.png'
+    include-all: true
+    type: select
+  - name: 节点测速 🛣️
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Auto.png'
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 地区测速 🛣️
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Auto.png'
+    type: select
+    proxies:
+      - 官方优选T 📶
+      - 世界节点T 🇺🇳
+      - 亚太节点T 🌏
+      - 美国节点T 🇺🇲
+      - 德国节点T 🇩🇪 
+      - 越南节点T 🇻🇳
+  - name: 地区均衡 ⌛
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final.png'
+    type: select
+    proxies:
+      - 世界节点L 🇺🇳
+      - 亚太节点L 🌏
+      - 美国节点L 🇺🇲
+      - 越南节点L 🇻🇳 
+  - name: 电报消息 📲
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 推特 𝕏
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Twitter.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: Ai 🤖
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+      - 德国节点T 🇩🇪
+  - name: 油管视频 📹
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Youtube.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 奈飞视频 🎥
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netflix.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 哔哩哔哩 📺
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Bilibili.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 亚太节点T 🌏
+  - name: 国外媒体 🌍
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Instagram.png'
+    type: select
+    proxies:
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 国内媒体 🌏
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Aiqiyi.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 亚太节点T 🌏
+  - name: 谷歌FCM 📢
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Google.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 微软服务 Ⓜ️
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Microsoft.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 微软云盘 Ⓜ️
+    icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/OneDrive.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 微软Bing Ⓜ️
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 苹果服务 🍎
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Apple.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 游戏平台 🎮
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Game.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: Steam 🎮
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Steam.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: Xbox 🎲
+    icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/xbox.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 网易音乐 🎶
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netease.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 广告拦截 🛑
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/AdBlock.png'
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 应用净化 🍃
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Reject.png'
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 漏网之鱼 🐟
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final01.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: CloudFlareCDN ☁️
+    icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+      - 地区均衡 ⌛
+  - name: 官方优选T 📶
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/taskicon/10086.png'
+    include-all: true
+    filter: (?i)官方|防|电信|联通|移动|CT|CU|CM|CF|t.me|WARP|Warp|warp
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 世界节点T 🇺🇳
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
+    include-all: true
+    filter: (?s)阿富汗|AF|阿尔巴尼亚|AL|阿尔及利亚|DZ|美属萨摩亚|AS|安道尔|AD|安哥拉|AO|安圭拉|AI|南极洲|AQ|安提瓜和巴布达|AG|阿根廷|AR|亚美尼亚|AM|阿鲁巴|AW|奥地利|AT|阿塞拜疆|AZ|巴哈马|BS|巴林|BH|孟加拉国|BD|巴巴多斯|BB|白俄罗斯|BY|比利时|BE|伯利兹|BZ|贝宁|BJ|百慕大|BM|不丹|BT|玻利维亚|BO|波黑|BA|博茨瓦纳|BW|布韦岛|BV|巴西|BR|英属印度洋领地|IO|英属维尔京群岛|VG|文莱|BN|保加利亚|BG|布基纳法索|BF|缅甸|MM|布隆迪|BI|佛得角|CV|柬埔寨|KH|喀麦隆|CM|加拿大|CA|开曼群岛|KY|中非|CF|乍得|TD|智利|CL|中华人民共和国|CN|圣诞岛|CX|科科斯（基林）群岛|CC|哥伦比亚|CO|科摩罗|KM|刚果民主共和国|CD|刚果共和国|CG|库克群岛|CK|哥斯达黎加|CR|科特迪瓦|CI|克罗地亚|HR|古巴|CU|库拉索|CW|塞浦路斯|CY|捷克|CZ|丹麦|DK|吉布提|DJ|多米尼克|DM|多米尼加|DO|厄瓜多尔|EC|埃及|EG|萨尔瓦多|SV|赤道几内亚|GQ|厄立特里亚|ER|爱沙尼亚|EE|埃塞俄比亚|ET|福克兰群岛|FK|法罗群岛|FO|斐济|FJ|芬兰|FI|法国|FR|法国本土|FX|法属圭亚那|GF|法属波利尼西亚|PF|法属南部和南极领地|TF|加蓬|GA|冈比亚|GM|巴勒斯坦|PS|格鲁吉亚|GE|加纳|GH|直布罗陀|GI|希腊|GR|格陵兰|GL|格林纳达|GD|瓜德罗普|GP|关岛|GU|危地马拉|GT|根西|GG|几内亚|GN|几内亚比绍|GW|圭亚那|GY|海地|HT|赫德岛和麦克唐纳群岛|HM|梵蒂冈|VA|洪都拉斯|HN|匈牙利|HU|冰岛|IS|印度|IN|印度尼西亚|ID|伊朗|IR|伊拉克|IQ|爱尔兰|IE|马恩岛|IM|以色列|IL|意大利|IT|牙买加|JM|泽西|JE|约旦|JO|哈萨克斯坦|KZ|肯尼亚|KE|基里巴斯|KI|朝鲜|KP|科索沃|XK|科威特|KW|吉尔吉斯斯坦|KG|老挝|LA|拉脱维亚|LV|黎巴嫩|LB|莱索托|LS|利比里亚|LR|利比亚|LY|列支敦士登|LI|立陶宛|LT|卢森堡|LU|澳门|MO|北马其顿|MK|马达加斯加|MG|马拉维|MW|马来西亚|MY|马尔代夫|MV|马里|ML|马耳他|MT|马绍尔群岛|MH|马提尼克|MQ|毛里塔尼亚|MR|毛里求斯|MU|马约特|YT|墨西哥|MX|密克罗尼西亚联邦|FM|摩尔多瓦|MD|摩纳哥|MC|蒙古国|MN|黑山|ME|蒙特塞拉特|MS|摩洛哥|MA|莫桑比克|MZ|纳米比亚|NA|瑙鲁|NR|尼泊尔|NP|新喀里多尼亚|NC|新西兰|NZ|尼加拉瓜|NI|尼日尔|NE|尼日利亚|NG|纽埃|NU|诺福克岛|NF|北马里亚纳群岛|MP|挪威|NO|阿曼|OM|巴基斯坦|PK|帕劳|PW|巴拿马|PA|巴布亚新几内亚|PG|巴拉圭|PY|秘鲁|PE|菲律宾|PH|皮特凯恩群岛|PN|波兰|PL|葡萄牙|PT|波多黎各|PR|卡塔尔|QA|留尼汪|RE|罗马尼亚|RO|俄罗斯|RU|卢旺达|RW|圣巴泰勒米|BL|圣赫勒拿、阿森松和特里斯坦-达库尼亚|SH|圣基茨和尼维斯|KN|圣卢西亚|LC|法属圣马丁|MF|圣文森特和格林纳丁斯|VC|萨摩亚|WS|圣马力诺|SM|圣多美和普林西比|ST|沙特阿拉伯|SA|塞内加尔|SN|塞尔维亚|RS|塞舌尔|SC|塞拉利昂|SL|荷属圣马丁|SX|斯洛伐克|SK|斯洛文尼亚|SI|所罗门群岛|SB|索马里|SO|南非|ZA|南乔治亚和南桑威奇群岛|GS|南苏丹|SS|西班牙|ES|斯里兰卡|LK|苏丹|SD|苏里南|SR|圣皮埃尔和密克隆|PM|斯威士兰|SZ|瑞典|SE|瑞士|CH|叙利亚|SY|塔吉克斯坦|TJ|坦桑尼亚|TZ|泰国|TH|东帝汶|TL|多哥|TG|托克劳|TK|汤加|TO|特立尼达和多巴哥|TT|突尼斯|TN|土耳其|TR|土库曼斯坦|TM|特克斯和凯科斯群岛|TC|图瓦卢|TV|乌干达|UG|乌克兰|UA|阿联酋|AE|英国|GB|乌拉圭|UY|乌兹别克斯坦|UZ|瓦努阿图|VU|委内瑞拉|VE|美属维尔京群岛|VI|瓦利斯和富图纳|WF|巴勒斯坦|PS|西撒哈拉|EH|联合国|UN|欧洲联盟|EU非盟|不适用|东南亚国家联盟|不适用|也门|YE|扎伊尔|ZA|赞比亚|ZM|津巴布韦|ZW|西印度群岛联邦|WI|独立国家联合体|EN|澳大拉西亚|AZ|南斯拉夫|YG|达荷美|DH|上沃尔特|VL|波希米亚|BO|捷克斯洛伐克|TC|阿拉伯联合共和国|UA|塞尔维亚和黑山|SG|Other|未识别
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 亚太节点T 🌏
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
+    include-all: true
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 美国节点T 🇺🇲
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/US.png'
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 150
+  - name: 德国节点T 🇩🇪
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
+    include-all: true
+    filter: (?i)德国|德|柏林|DE|Germany|BRD
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 越南节点T 🇻🇳 
+    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
+    include-all: true
+    filter: (?i)越南|VN
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 世界节点L 🇺🇳
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
+    include-all: true
+    filter: (?s)阿富汗|AF|阿尔巴尼亚|AL|阿尔及利亚|DZ|美属萨摩亚|AS|安道尔|AD|安哥拉|AO|安圭拉|AI|南极洲|AQ|安提瓜和巴布达|AG|阿根廷|AR|亚美尼亚|AM|阿鲁巴|AW|奥地利|AT|阿塞拜疆|AZ|巴哈马|BS|巴林|BH|孟加拉国|BD|巴巴多斯|BB|白俄罗斯|BY|比利时|BE|伯利兹|BZ|贝宁|BJ|百慕大|BM|不丹|BT|玻利维亚|BO|波黑|BA|博茨瓦纳|BW|布韦岛|BV|巴西|BR|英属印度洋领地|IO|英属维尔京群岛|VG|文莱|BN|保加利亚|BG|布基纳法索|BF|缅甸|MM|布隆迪|BI|佛得角|CV|柬埔寨|KH|喀麦隆|CM|加拿大|CA|开曼群岛|KY|中非|CF|乍得|TD|智利|CL|中华人民共和国|CN|圣诞岛|CX|科科斯（基林）群岛|CC|哥伦比亚|CO|科摩罗|KM|刚果民主共和国|CD|刚果共和国|CG|库克群岛|CK|哥斯达黎加|CR|科特迪瓦|CI|克罗地亚|HR|古巴|CU|库拉索|CW|塞浦路斯|CY|捷克|CZ|丹麦|DK|吉布提|DJ|多米尼克|DM|多米尼加|DO|厄瓜多尔|EC|埃及|EG|萨尔瓦多|SV|赤道几内亚|GQ|厄立特里亚|ER|爱沙尼亚|EE|埃塞俄比亚|ET|福克兰群岛|FK|法罗群岛|FO|斐济|FJ|芬兰|FI|法国|FR|法国本土|FX|法属圭亚那|GF|法属波利尼西亚|PF|法属南部和南极领地|TF|加蓬|GA|冈比亚|GM|巴勒斯坦|PS|格鲁吉亚|GE|加纳|GH|直布罗陀|GI|希腊|GR|格陵兰|GL|格林纳达|GD|瓜德罗普|GP|关岛|GU|危地马拉|GT|根西|GG|几内亚|GN|几内亚比绍|GW|圭亚那|GY|海地|HT|赫德岛和麦克唐纳群岛|HM|梵蒂冈|VA|洪都拉斯|HN|匈牙利|HU|冰岛|IS|印度|IN|印度尼西亚|ID|伊朗|IR|伊拉克|IQ|爱尔兰|IE|马恩岛|IM|以色列|IL|意大利|IT|牙买加|JM|泽西|JE|约旦|JO|哈萨克斯坦|KZ|肯尼亚|KE|基里巴斯|KI|朝鲜|KP|科索沃|XK|科威特|KW|吉尔吉斯斯坦|KG|老挝|LA|拉脱维亚|LV|黎巴嫩|LB|莱索托|LS|利比里亚|LR|利比亚|LY|列支敦士登|LI|立陶宛|LT|卢森堡|LU|澳门|MO|北马其顿|MK|马达加斯加|MG|马拉维|MW|马来西亚|MY|马尔代夫|MV|马里|ML|马耳他|MT|马绍尔群岛|MH|马提尼克|MQ|毛里塔尼亚|MR|毛里求斯|MU|马约特|YT|墨西哥|MX|密克罗尼西亚联邦|FM|摩尔多瓦|MD|摩纳哥|MC|蒙古国|MN|黑山|ME|蒙特塞拉特|MS|摩洛哥|MA|莫桑比克|MZ|纳米比亚|NA|瑙鲁|NR|尼泊尔|NP|新喀里多尼亚|NC|新西兰|NZ|尼加拉瓜|NI|尼日尔|NE|尼日利亚|NG|纽埃|NU|诺福克岛|NF|北马里亚纳群岛|MP|挪威|NO|阿曼|OM|巴基斯坦|PK|帕劳|PW|巴拿马|PA|巴布亚新几内亚|PG|巴拉圭|PY|秘鲁|PE|菲律宾|PH|皮特凯恩群岛|PN|波兰|PL|葡萄牙|PT|波多黎各|PR|卡塔尔|QA|留尼汪|RE|罗马尼亚|RO|俄罗斯|RU|卢旺达|RW|圣巴泰勒米|BL|圣赫勒拿、阿森松和特里斯坦-达库尼亚|SH|圣基茨和尼维斯|KN|圣卢西亚|LC|法属圣马丁|MF|圣文森特和格林纳丁斯|VC|萨摩亚|WS|圣马力诺|SM|圣多美和普林西比|ST|沙特阿拉伯|SA|塞内加尔|SN|塞尔维亚|RS|塞舌尔|SC|塞拉利昂|SL|荷属圣马丁|SX|斯洛伐克|SK|斯洛文尼亚|SI|所罗门群岛|SB|索马里|SO|南非|ZA|南乔治亚和南桑威奇群岛|GS|南苏丹|SS|西班牙|ES|斯里兰卡|LK|苏丹|SD|苏里南|SR|圣皮埃尔和密克隆|PM|斯威士兰|SZ|瑞典|SE|瑞士|CH|叙利亚|SY|塔吉克斯坦|TJ|坦桑尼亚|TZ|泰国|TH|东帝汶|TL|多哥|TG|托克劳|TK|汤加|TO|特立尼达和多巴哥|TT|突尼斯|TN|土耳其|TR|土库曼斯坦|TM|特克斯和凯科斯群岛|TC|图瓦卢|TV|乌干达|UG|乌克兰|UA|阿联酋|AE|英国|GB|乌拉圭|UY|乌兹别克斯坦|UZ|瓦努阿图|VU|委内瑞拉|VE|美属维尔京群岛|VI|瓦利斯和富图纳|WF|巴勒斯坦|PS|西撒哈拉|EH|联合国|UN|欧洲联盟|EU非盟|不适用|东南亚国家联盟|不适用|也门|YE|扎伊尔|ZA|赞比亚|ZM|津巴布韦|ZW|西印度群岛联邦|WI|独立国家联合体|EN|澳大拉西亚|AZ|南斯拉夫|YG|达荷美|DH|上沃尔特|VL|波希米亚|BO|捷克斯洛伐克|TC|阿拉伯联合共和国|UA|塞尔维亚和黑山|SG|Other|未识别
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 亚太节点L 🌏
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
+    include-all: true
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 美国节点L 🇺🇲
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/US.png'
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 越南节点L 🇻🇳 
+    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
+    include-all: true
+    filter: (?i)VN|Vietnam|VNM|Hanoi|越南|河内
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+rule-providers:
+  LocalAreaNetwork:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
+    path: ./ruleset/LocalAreaNetwork.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  direct:
+    url: https://raw.githubusercontent.com/UlinoyaPed/ShellClash/dev/lists/direct.list
+    path: ./ruleset/direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  UnBan:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
+    path: ./ruleset/UnBan.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
+    path: ./ruleset/BanAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  adobe:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/adobe.list
+    path: ./ruleset/adobe.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BanProgramAD:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
+    path: ./ruleset/BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  CFnat:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
+    path: ./ruleset/CFnat.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaIp:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+    path: ./ruleset/ChinaIp.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleFCM:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/GoogleFCM.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleCN:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
+    path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bing:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OneDrive:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/OneDrive.list
+    path: ./ruleset/OneDrive.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Microsoft:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Microsoft.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Apple:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
+    path: ./ruleset/Apple.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  OpenAi:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/OpenAi.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ai:
+    url: https://raw.githubusercontent.com/juewuy/ShellClash/master/rules/ai.list
+    path: ./ruleset/ai.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Copilot:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list
+    path: ./ruleset/Copilot.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GithubCopilot:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/GithubCopilot.list
+    path: ./ruleset/GithubCopilot.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Claude:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Claude.list
+    path: ./ruleset/Claude.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  NetEaseMusic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/NetEaseMusic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Epic:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Epic.list
+    path: ./ruleset/Epic.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Origin:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Origin.list
+    path: ./ruleset/Origin.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Sony:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Sony.list
+    path: ./ruleset/Sony.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Steam:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Steam.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  SteamCN:
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+    path: ./ruleset/Steam.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Nintendo:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/Nintendo.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Xbox:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Xbox.list
+    path: ./ruleset/Xbox.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bahamut:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/Bahamut.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Emby:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Emby.list
+    path: ./ruleset/Emby.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  BilibiliHMT:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/BilibiliHMT.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Bilibili:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Bilibili.list
+    path: ./ruleset/Bilibili.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaMedia.list
+    path: ./ruleset/ChinaMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyMedia:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyMedia.list
+    path: ./ruleset/ProxyMedia.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Twitter:
+    url: https://raw.githubusercontent.com/Pangelb/Pangel/refs/heads/main/Clash/Ruleset/Twitter.list
+    path: ./ruleset/Twitter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ProxyGFWlist:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ProxyGFWlist.list
+    path: ./ruleset/ProxyGFWlist.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  proxy:
+    url: https://raw.githubusercontent.com/UlinoyaPed/ShellClash/dev/lists/proxy.list
+    path: ./ruleset/proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  CMBlog:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/CMBlog.list
+    path: ./ruleset/CMBlog.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  ChinaDomain:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaDomain.list
+    path: ./ruleset/ChinaDomain.list
+    behavior: domain
+    interval: 86400
+    format: text
+    type: http
+  ChinaCompanyIp:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/ChinaCompanyIp.list
+    path: ./ruleset/ChinaCompanyIp.list
+    behavior: ipcidr
+    interval: 86400
+    format: text
+    type: http
+  CloudFlareCDN:
+    url: https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/CloudflareCIDR.list
+    path: ./ruleset/CloudflareCIDR.list
+    behavior: ipcidr
+    interval: 86400
+    format: text
+    type: http
+  Download:
+    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
+    path: ./ruleset/Download.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+rules:
+  - "RULE-SET,LocalAreaNetwork,GLOBAL"
+  - "RULE-SET,UnBan,GLOBAL"
+  - "RULE-SET,CFnat,GLOBAL"
+  - "RULE-SET,ChinaIp,GLOBAL"
+  - "RULE-SET,ChinaDomain,GLOBAL"
+  - "RULE-SET,ChinaCompanyIp,GLOBAL"
+  - "RULE-SET,BanAD,广告拦截 🛑"
+  - "RULE-SET,adobe,应用净化 🍃"
+  - "RULE-SET,BanProgramAD,应用净化 🍃"
+  - "RULE-SET,GoogleFCM,谷歌FCM 📢"
+  - "RULE-SET,GoogleCN,GLOBAL"
+  - "RULE-SET,Bing,微软Bing Ⓜ️"
+  - "RULE-SET,OneDrive,微软云盘 Ⓜ️"
+  - "RULE-SET,Microsoft,微软服务 Ⓜ️"
+  - "RULE-SET,Apple,苹果服务 🍎"
+  - "RULE-SET,Telegram,电报消息 📲"
+  - "RULE-SET,OpenAi,Ai 🤖"
+  - "RULE-SET,ai,Ai 🤖"
+  - "RULE-SET,Copilot,Ai 🤖"
+  - "RULE-SET,GithubCopilot,Ai 🤖"
+  - "RULE-SET,Claude,Ai 🤖"
+  - "RULE-SET,NetEaseMusic,网易音乐 🎶"
+  - "RULE-SET,Epic,游戏平台 🎮"
+  - "RULE-SET,Origin,游戏平台 🎮"
+  - "RULE-SET,Sony,游戏平台 🎮"
+  - "RULE-SET,Nintendo,游戏平台 🎮"
+  - "RULE-SET,Steam,Steam 🎮"
+  - "RULE-SET,SteamCN,GLOBAL"
+  - "RULE-SET,Xbox,Xbox 🎲"
+  - "RULE-SET,YouTube,油管视频 📹"
+  - "RULE-SET,Netflix,奈飞视频 🎥"
+  - "RULE-SET,BilibiliHMT,哔哩哔哩 📺"
+  - "RULE-SET,Bilibili,哔哩哔哩 📺"
+  - "RULE-SET,ChinaMedia,国内媒体 🌏"
+  - "RULE-SET,Bahamut,国外媒体 🌍"
+  - "RULE-SET,Emby,国外媒体 🌍"
+  - "RULE-SET,ProxyMedia,国外媒体 🌍"
+  - "RULE-SET,Twitter,推特 𝕏"
+  - "RULE-SET,ProxyGFWlist,节点选择 🚀"
+  - "RULE-SET,proxy,节点选择 🚀"
+  - "RULE-SET,CMBlog,节点选择 🚀"
+  - "GEOIP,cloudflare,CloudFlareCDN ☁️"
+  - "RULE-SET,Download,GLOBAL"
+  - "DOMAIN,hidoha.net,GLOBAL"
+  - "GEOIP,CN,GLOBAL"
+  - "MATCH,漏网之鱼 🐟"
