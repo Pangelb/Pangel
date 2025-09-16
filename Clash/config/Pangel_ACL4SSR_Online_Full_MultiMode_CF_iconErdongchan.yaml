@@ -37,7 +37,6 @@ proxy-groups:
       - 亚太节点T 🌏
       - 美国节点T 🇺🇲
       - 德国节点T 🇩🇪 
-      - 越南节点T 🇻🇳
   - name: 地区均衡 ⌛
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final.png'
     type: select
@@ -45,7 +44,6 @@ proxy-groups:
       - 世界节点L 🇺🇳
       - 亚太节点L 🌏
       - 美国节点L 🇺🇲
-      - 越南节点L 🇻🇳 
   - name: 电报消息 📲
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
@@ -246,7 +244,7 @@ proxy-groups:
   - name: 亚太节点T 🌏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
     include-all: true
-    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG|越南|🇻🇳
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -267,14 +265,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-  - name: 越南节点T 🇻🇳 
-    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
-    include-all: true
-    filter: (?i)越南|VN
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
   - name: 世界节点L 🇺🇳
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/UN.png'
     include-all: true
@@ -287,7 +277,7 @@ proxy-groups:
   - name: 亚太节点L 🌏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
     include-all: true
-    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG|越南|🇻🇳 
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
@@ -297,15 +287,6 @@ proxy-groups:
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/US.png'
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States|ATL|BUF|DFW|EWR|IAD|LAX|MCI|MIA|ORD|PHX|PDX|SEA|SJC
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 越南节点L 🇻🇳 
-    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
-    include-all: true
-    filter: (?i)VN|Vietnam|VNM|Hanoi|越南|河内
     type: load-balance
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
