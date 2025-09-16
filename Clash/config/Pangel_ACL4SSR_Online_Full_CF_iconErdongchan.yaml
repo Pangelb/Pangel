@@ -35,7 +35,6 @@ proxy-groups:
       - 亚太节点T 🌏
       - 美国节点T 🇺🇲
       - 德国节点T 🇩🇪 
-      - 越南节点T 🇻🇳
   - name: 电报消息 📲
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
@@ -219,7 +218,7 @@ proxy-groups:
   - name: 亚太节点T 🌏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/SG.png'
     include-all: true
-    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    filter: (?i)KR|Korea|KOR|Seoul|首尔|春川|韩|韓|ICN|日本|川日|东京|大阪|泉日|埼玉|沪日|深日|日|JP|Japan|Tokyo|NRT|KIX|台|新北|彰化|TW|Taiwan|TPE|KHH|新加坡|坡|狮城|SG|Singapore|SIN|澳大利亚|AU|港|HK|hk|Hong Kong|HongKong|hongkong|HKG|越南|VN
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -236,14 +235,6 @@ proxy-groups:
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/DE.png'
     include-all: true
     filter: (?i)德国|德|柏林|DE|Germany|BRD
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: 越南节点T 🇻🇳 
-    icon: 'https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Rounded_Rectangle/Vietnam.png'
-    include-all: true
-    filter: (?i)越南|VN
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
