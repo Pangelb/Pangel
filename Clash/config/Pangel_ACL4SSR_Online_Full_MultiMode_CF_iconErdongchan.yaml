@@ -228,7 +228,7 @@ proxy-groups:
   - name: 官方优选T 📶
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/taskicon/10086.png'
     include-all: true
-    filter: (?i)官方|防|电信|联通|移动|CT|CU|CM|CF|t.me|WARP|Warp|warp
+    filter: '^[^\x00-\x7F]{2}(官方|防|电信|联通|移动|CT|CU|CM|CF|t.me|WARP|Warp|warp)'
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
