@@ -1,0 +1,17 @@
+  - name: 香港节点T 🇭🇰
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png'
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+
+  - name: 香港节点T 🇭🇰
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Country/HK02.png'
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong|HKG
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
