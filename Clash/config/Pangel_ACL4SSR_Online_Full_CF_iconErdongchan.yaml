@@ -75,7 +75,25 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50
+    tolerance: 50🛣️
+  - name: CloudFlareCDN ☁️
+    icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+  - name: 漏网之鱼 🐟
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final01.png'
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 
   - name: 电报消息 📲
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
@@ -232,24 +250,6 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 漏网之鱼 🐟
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final01.png'
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择 🚀
-      - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
-  - name: CloudFlareCDN ☁️
-    icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择 🚀
-      - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
 
 rule-providers:
   LocalAreaNetwork:
