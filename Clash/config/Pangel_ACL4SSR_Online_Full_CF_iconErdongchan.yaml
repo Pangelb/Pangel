@@ -75,7 +75,7 @@ proxy-groups:
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    tolerance: 50🛣️
+    tolerance: 50
   - name: CloudFlareCDN ☁️
     icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
     type: select
@@ -93,22 +93,6 @@ proxy-groups:
       - 节点选择 🚀
       - 手动切换️ ☑
       - 节点测速 🛣️
-      - 地区测速 
-  - name: 电报消息 📲
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
-    type: select
-    proxies:
-      - 节点选择 🚀
-      - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
-  - name: 推特 𝕏
-    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Twitter.png'
-    type: select
-    proxies:
-      - 节点选择 🚀
-      - 手动切换️ ☑
-      - 节点测速 🛣️
       - 地区测速 🛣️
   - name: Ai 🤖
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
@@ -119,6 +103,22 @@ proxy-groups:
       - 节点测速 🛣️
       - 地区测速 🛣️
       - 德国节点T 🇩🇪
+  - name: 推特 𝕏
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Twitter.png'
+    type: select
+    proxies:
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
+  - name: 电报消息 📲
+    icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
+    type: select
+    proxies:
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - 节点测速 🛣️
+      - 地区测速 🛣️
   - name: 油管视频 📹
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Youtube.png'
     type: select
