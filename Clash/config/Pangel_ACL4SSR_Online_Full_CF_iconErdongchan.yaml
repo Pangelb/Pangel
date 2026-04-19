@@ -90,7 +90,7 @@ proxy-groups:
   - name: OpenAI ✿
     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/1920px-OpenAI_logo_2025_%28symbol%29.svg.png'
     include-all: true
-    filter: '^[^\x00-\x7F]{2}(GPT⁺)'
+    filter: '\|GPT⁺'
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -98,15 +98,15 @@ proxy-groups:
   - name: Claude 🌼
     icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Claude-ai-icon.svg/1280px-Claude-ai-icon.svg.png?_=20250728014952'
     include-all: true
-    filter: '^[^\x00-\x7F]{2}(CL)'
+    filter: '\|CL'
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
   - name: Gemini ✨
-    icon: 'https://https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/1920px-Google_Gemini_icon_2025.svg.png'
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/1920px-Google_Gemini_icon_2025.svg.png'
     include-all: true
-    filter: '^[^\x00-\x7F]{2}(GM)'
+    filter: '\|GM'
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
