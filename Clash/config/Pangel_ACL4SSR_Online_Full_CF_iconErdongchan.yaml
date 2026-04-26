@@ -8,6 +8,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 节点选择 🚀
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Proxy.png'
     type: select
@@ -16,6 +17,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 手动切换️ ☑
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Outside.png'
     include-all: true
@@ -36,6 +38,39 @@ proxy-groups:
       - 亚太节点T 🌏
       - 美国节点T 🇺🇲
       - 德国节点T 🇩🇪 
+  - name: 平台测速 🤖
+    icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
+    type: select
+    proxies:
+      - 节点选择 🚀
+      - 手动切换️ ☑
+      - OpenAI ✿
+      - Claude 🌼
+      - Gemini ✨
+  - name: OpenAI ✿
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/1920px-OpenAI_logo_2025_%28symbol%29.svg.png'
+    include-all: true
+    filter: '\|GPT⁺'
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: Claude 🌼
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Claude-ai-icon.svg/1280px-Claude-ai-icon.svg.png?_=20250728014952'
+    include-all: true
+    filter: '\|CL'
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: Gemini ✨
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/1920px-Google_Gemini_icon_2025.svg.png'
+    include-all: true
+    filter: '\|GM'
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
   - name: 官方优选T 📶
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/taskicon/10086.png'
     include-all: true
@@ -82,35 +117,9 @@ proxy-groups:
     proxies:
       - 节点选择 🚀
       - 手动切换️ ☑
-      - 节点测速 🛣️
-      - 地区测速 🛣️
       - OpenAI ✿
       - Claude 🌼
       - Gemini ✨
-  - name: OpenAI ✿
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/OpenAI_logo_2025_%28symbol%29.svg/1920px-OpenAI_logo_2025_%28symbol%29.svg.png'
-    include-all: true
-    filter: '\|GPT⁺'
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: Claude 🌼
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Claude-ai-icon.svg/1280px-Claude-ai-icon.svg.png?_=20250728014952'
-    include-all: true
-    filter: '\|CL'
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-  - name: Gemini ✨
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Google_Gemini_icon_2025.svg/1920px-Google_Gemini_icon_2025.svg.png'
-    include-all: true
-    filter: '\|GM'
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
   - name: CloudFlareCDN ☁️
     icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/CloudflareWARP.png'
     type: select
@@ -120,6 +129,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 漏网之鱼 🐟
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Final01.png'
     type: select
@@ -129,6 +139,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 推特 𝕏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Twitter.png'
     type: select
@@ -137,6 +148,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 电报消息 📲
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Telegram.png'
     type: select
@@ -145,6 +157,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 油管视频 📹
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Youtube.png'
     type: select
@@ -153,6 +166,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 奈飞视频 🎥
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netflix.png'
     type: select
@@ -161,6 +175,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 哔哩哔哩 📺
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Bilibili.png'
     type: select
@@ -175,6 +190,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 国内媒体 🌏
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Aiqiyi.png'
     type: select
@@ -192,6 +208,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 微软服务 Ⓜ️
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Microsoft.png'
     type: select
@@ -201,6 +218,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 微软云盘 Ⓜ️
     icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/lige47/OneDrive.png'
     type: select
@@ -210,6 +228,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 微软Bing Ⓜ️
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Microsoft.png'
     type: select
@@ -219,6 +238,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 苹果服务 🍎
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Apple.png'
     type: select
@@ -228,6 +248,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 游戏平台 🎮
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Game.png'
     type: select
@@ -237,6 +258,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: Steam 🎮
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Steam.png'
     type: select
@@ -246,6 +268,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: Xbox 🎲
     icon: 'https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/xbox.png'
     type: select
@@ -255,6 +278,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 网易音乐 🎶
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/Netease.png'
     type: select
@@ -264,6 +288,7 @@ proxy-groups:
       - 手动切换️ ☑
       - 节点测速 🛣️
       - 地区测速 🛣️
+      - 平台测速 🤖
   - name: 广告拦截 🛑
     icon: 'https://raw.githubusercontent.com/erdongchanyo/icon/refs/heads/main/Policy-Filter/AdBlock.png'
     type: select
