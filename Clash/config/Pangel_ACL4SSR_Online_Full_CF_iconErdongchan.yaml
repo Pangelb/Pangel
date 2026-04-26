@@ -42,7 +42,6 @@ proxy-groups:
     icon: 'https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png'
     type: select
     proxies:
-      - 节点选择 🚀
       - 手动切换️ ☑
       - OpenAI ✿
       - Claude 🌼
